@@ -10,7 +10,7 @@ const SearchForm = ({ searchTerm }) => {
     <div
       className="grid place-items-center pt-[80px] h-screen bg-cover bg-no-repeat"
       style={backgroundImageStyle}>
-      <Form className="bg-lightCream p-2 sm:p-5 rounded-md">
+      <Form className="bg-lightCream p-1 sm:p-5 rounded-md">
         <input
           type="search"
           name="search"
