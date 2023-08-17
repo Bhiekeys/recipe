@@ -6,8 +6,8 @@ import { useGlobalContext } from '../context/useGlobalContext';
 const Sidebar = () => {
   const { closeSidebar } = useGlobalContext();
   return (
-    <div className="bg-darkCharcoal absolute w-full sm:hidden ">
-      <div className="grid justify-center">
+    <div className=" absolute sm:hidden ">
+      <div className="grid justify-center fixed bg-darkCharcoal  w-full ">
         <div className="flex items-center justify-between h-[71px] w-[90vw]">
           <Logo />
           <div

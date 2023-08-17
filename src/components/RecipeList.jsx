@@ -9,7 +9,7 @@ const RecipeList = ({ results }) => {
   const formattedResults = results;
 
   return (
-    <div className="grid place-content-center mt-20 ">
+    <div className="grid place-content-center pb-20 mt-20 ">
       <h2 className="text-center text-4xl font-semibold underline decoration-deepGreen underline-offset-4 mb-7 text-deepGreen ">
         Recipe List
       </h2>

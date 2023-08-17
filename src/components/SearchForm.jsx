@@ -18,7 +18,7 @@ const SearchForm = ({ searchTerm }) => {
           defaultValue={searchTerm}
         />
         <button
-          className="bg-deepGreen h-12 px-1 md:px-10 rounded-r-[5px] text-[20px] text-lightCream"
+          className="bg-deepGreen h-12 px-1 md:px-10 rounded-r-[5px] text-[14px] sm:text-[20px] text-lightCream"
           type="submit"
           disabled={isSubmitting}>
           {isSubmitting ? 'searching...' : ' search'}
