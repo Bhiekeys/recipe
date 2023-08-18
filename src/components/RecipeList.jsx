@@ -2,10 +2,21 @@ import RecipeCards from './RecipeCards';
 const RecipeList = ({ results }) => {
   if (!results) {
     return (
-      <h4 style={{ textAlign: 'center' }}>No matching cocktails found ....</h4>
+      <h4 className="py-[80px] text-2xl text-center">
+        No matching cocktails found ....
+      </h4>
     );
   }
 
+  
+  if (results.length === 0) {
+    // No results found
+    return (
+      <div className="py-[80px] text-2xl text-center">
+        <p>No recipes found for your search....</p>
+      </div>
+    );
+  }
   const formattedResults = results;
 
   return (

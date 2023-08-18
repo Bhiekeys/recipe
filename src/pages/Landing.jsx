@@ -12,7 +12,7 @@ const searchRecipesQuery = (searchTerm) => {
     queryKey: ['search', searchTerm || 'all'],
     queryFn: async () => {
       const response = await axios.get(`${recipeSearchUrl}${searchTerm}&addRecipeInformation=true`);
-      console.log(response)
+      // console.log(response)
       return response.data.results;
     },
   };

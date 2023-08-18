@@ -14,7 +14,7 @@ const SearchForm = ({ searchTerm }) => {
         <input
           type="search"
           name="search"
-          className="md:w-[490px] w-[200px] h-12 outline-none"
+          className="md:w-[490px] w-[210px] h-12 outline-none"
           defaultValue={searchTerm}
         />
         <button
